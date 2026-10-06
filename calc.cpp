@@ -27,7 +27,7 @@ int main() {
             break;
 
         case 2:
-            // TODO: subtraction
+            result = static_cast<double>(a) - b;
             break;
 
         case 3:
