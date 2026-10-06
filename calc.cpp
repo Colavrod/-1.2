@@ -31,7 +31,7 @@ int main() {
             break;
 
         case 3:
-            // TODO: multiplication
+            result = static_cast<double>(a) * b;
             break;
 
         case 4:
