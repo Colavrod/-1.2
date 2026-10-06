@@ -35,7 +35,11 @@ int main() {
             break;
 
         case 4:
-            // TODO: division
+            if (b == 0) {
+                cerr << "Помилка: ділення на нуль неможливе.\n";
+                return 1;
+            }
+            result = static_cast<double>(a) / b;
             break;
 
         default:
