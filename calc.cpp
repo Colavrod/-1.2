@@ -23,7 +23,7 @@ int main() {
 
     switch (op) {
         case 1:
-            // TODO: addition
+            result = static_cast<double>(a) + b;
             break;
 
         case 2:
